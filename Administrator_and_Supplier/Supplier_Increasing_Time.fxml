@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/18" fx:controller="Administrator.Supplier_Increasing_TimeController">
+   <children>
+      <Label layoutX="46.0" layoutY="11.0" prefHeight="35.0" prefWidth="448.0" text="Request for Increasing Time for Delivering Raw Materials" textFill="#d71e1e">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <DatePicker layoutX="39.0" layoutY="79.0" promptText="Enter Previous Date" />
+      <DatePicker layoutX="39.0" layoutY="123.0" promptText="Enter New Date" />
+      <TextArea layoutX="39.0" layoutY="157.0" prefHeight="200.0" prefWidth="200.0" promptText="Write Reason" />
+      <Button layoutX="39.0" layoutY="361.0" mnemonicParsing="false" text="Send" />
+      <Button layoutX="480.0" layoutY="345.0" mnemonicParsing="false" text="Back" />
+   </children>
+</AnchorPane>

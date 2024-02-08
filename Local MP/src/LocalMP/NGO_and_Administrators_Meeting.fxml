@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="rohingacamp.NGO_and_Administrators_MeetingController">
+   <children>
+      <Label layoutX="38.0" layoutY="14.0" prefHeight="54.0" prefWidth="530.0" text="Meeting with NGO officers, Administrators and other organizations" textFill="#362b8f">
+         <font>
+            <Font name="Times New Roman Bold" size="18.0" />
+         </font>
+      </Label>
+      <DatePicker layoutX="38.0" layoutY="220.0" onAction="#date" promptText="Select Date" />
+      <Button layoutX="38.0" layoutY="345.0" mnemonicParsing="false" onAction="#confirmMeeting" text="Confirm Meeting" />
+      <TextField layoutX="38.0" layoutY="105.0" promptText="Room No" />
+      <TextField layoutX="39.0" layoutY="153.0" promptText="Meeting Topic" />
+      <TextArea layoutX="300.0" layoutY="118.0" prefHeight="200.0" prefWidth="275.0" />
+      <Button layoutX="397.0" layoutY="79.0" mnemonicParsing="false" onAction="#setMeeting" text="Set Meeting" />
+      <Label layoutX="256.0" layoutY="334.0" prefHeight="42.0" prefWidth="322.0" text="Label" />
+   </children>
+</AnchorPane>

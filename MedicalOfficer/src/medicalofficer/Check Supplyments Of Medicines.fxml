@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/18" fx:controller="medicalofficer.CheckSupplymentsOfMedicinesController">
+   <children>
+      <Label layoutX="206.0" layoutY="55.0" text="Check Medicine Supplements">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button layoutX="93.0" layoutY="123.0" mnemonicParsing="false" text="View Medicine Details" />
+      <ComboBox layoutX="351.0" layoutY="123.0" prefWidth="150.0" promptText="Select Medicine Type" />
+      <TableView layoutX="219.0" layoutY="172.0" prefHeight="200.0" prefWidth="200.0">
+        <columns>
+          <TableColumn prefWidth="105.5999755859375" text="Medicine Name" />
+          <TableColumn prefWidth="93.5999755859375" text="Expire Date" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

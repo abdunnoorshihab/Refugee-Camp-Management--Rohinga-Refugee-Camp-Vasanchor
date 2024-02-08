@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/18" fx:controller="medicalofficer.AntenatalCareController">
+   <children>
+      <Label layoutX="222.0" layoutY="49.0" text="Provide Antenatal Care">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <ComboBox layoutX="80.0" layoutY="111.0" prefWidth="150.0" promptText="Select Vaccine" />
+      <RadioButton layoutX="80.0" layoutY="200.0" mnemonicParsing="false" text="Male" />
+      <RadioButton layoutX="81.0" layoutY="233.0" mnemonicParsing="false" text="Female" />
+      <Label layoutX="90.0" layoutY="168.0" text="Select Gender" />
+      <TableView layoutX="345.0" layoutY="118.0" prefHeight="200.0" prefWidth="200.0">
+        <columns>
+          <TableColumn prefWidth="104.800048828125" text="Child's name" />
+          <TableColumn prefWidth="93.5999755859375" text="Vaccine" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

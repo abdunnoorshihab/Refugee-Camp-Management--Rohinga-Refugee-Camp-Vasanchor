@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="nutritionAndHealth.ArrangeProgrameOnNutritionAndHealthController">
+   <children>
+      <Label layoutX="165.0" layoutY="50.0" text="Arrange Programe On Nutrition And Health">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField layoutX="69.0" layoutY="109.0" promptText="Enter Your ID" />
+      <TextField layoutX="70.0" layoutY="158.0" promptText="Enter Your Age" />
+      <ComboBox layoutX="373.0" layoutY="109.0" prefWidth="150.0" promptText="Select Group" />
+      <CheckBox layoutX="70.0" layoutY="244.0" mnemonicParsing="false" text="Check NUmber of Inputs " />
+      <MenuBar layoutX="-1.0" layoutY="1.0" prefHeight="26.0" prefWidth="601.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Close" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Info">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Delete" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <TableView layoutX="335.0" layoutY="171.0" prefHeight="200.0" prefWidth="200.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="ID" />
+          <TableColumn prefWidth="36.0" text="Age" />
+            <TableColumn prefWidth="115.19992065429688" text="Group" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

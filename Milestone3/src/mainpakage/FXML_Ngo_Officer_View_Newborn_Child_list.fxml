@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="565.0" prefWidth="734.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/18" fx:controller="mainpakage.FXML_Ngo_Officer_View_Newborn_Child_listController">
+   <children>
+      <TableView fx:id="tablefxiD" layoutX="95.0" layoutY="101.0" prefHeight="334.0" prefWidth="488.0">
+        <columns>
+          <TableColumn fx:id="col1fxid" prefWidth="163.99998474121094" text="Name" />
+          <TableColumn fx:id="col2fxId" prefWidth="144.0" text="Gender" />
+            <TableColumn fx:id="col3fxid" prefWidth="179.20001220703125" text="Age" />
+        </columns>
+      </TableView>
+      <Label layoutX="214.0" layoutY="20.0" prefHeight="48.0" prefWidth="279.0" text="View Newbornchild list">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Button layoutX="85.0" layoutY="448.0" mnemonicParsing="false" onAction="#HomesceneOnClick" prefHeight="26.0" prefWidth="137.0" text="Home Scene" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="rohingacamp.MonitoringTheBasicNeedsController">
+   <children>
+      <Label layoutX="151.0" layoutY="25.0" prefHeight="42.0" prefWidth="298.0" text="Basic Needs of Refugee">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+      <Button layoutX="409.0" layoutY="95.0" mnemonicParsing="false" onAction="#monitored" text="Monitor" />
+      <TableView layoutX="339.0" layoutY="137.0" prefHeight="200.0" prefWidth="200.0">
+        <columns>
+          <TableColumn prefWidth="96.800048828125" text="C1" />
+          <TableColumn prefWidth="102.39996337890625" text="C2" />
+        </columns>
+      </TableView>
+      <TextField layoutX="26.0" layoutY="130.0" prefHeight="26.0" prefWidth="236.0" promptText="Num of Resources Consumped in last day" />
+      <TextField layoutX="26.0" layoutY="174.0" promptText="Average Consumption" />
+      <Button layoutX="280.0" layoutY="360.0" mnemonicParsing="false" text="Back" />
+   </children>
+</AnchorPane>

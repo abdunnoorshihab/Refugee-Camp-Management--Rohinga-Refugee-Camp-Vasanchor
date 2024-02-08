@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="618.0" prefWidth="818.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/18" fx:controller="pkg.ViewVitaminASupplimentNeedsController">
+   <children>
+      <Button layoutX="28.0" layoutY="22.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="230.0" text="View who needs vitamin a suppliment" />
+      <TableView layoutX="45.0" layoutY="109.0" prefHeight="444.0" prefWidth="614.0">
+        <columns>
+          <TableColumn prefWidth="144.00000381469727" text="Name" />
+          <TableColumn prefWidth="125.59996032714844" text="ID" />
+            <TableColumn prefWidth="89.5999755859375" text="Age" />
+            <TableColumn prefWidth="104.0" text="Gender" />
+            <TableColumn prefWidth="144.800048828125" text="Types of suppliments" />
+        </columns>
+      </TableView>
+      <Button layoutX="587.0" layoutY="577.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="230.0" text="Click to back home scene" />
+   </children>
+</AnchorPane>

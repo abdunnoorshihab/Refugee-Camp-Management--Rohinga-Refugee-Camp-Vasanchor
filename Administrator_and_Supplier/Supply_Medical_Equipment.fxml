@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/18" fx:controller="Administrator.Supply_Medical_EquipmentController">
+   <children>
+      <CheckBox layoutX="65.0" layoutY="65.0" mnemonicParsing="false" text="Saline" />
+      <CheckBox layoutX="66.0" layoutY="93.0" mnemonicParsing="false" text="Medicine" />
+      <CheckBox layoutX="65.0" layoutY="126.0" mnemonicParsing="false" text="Injection" />
+      <CheckBox layoutX="66.0" layoutY="159.0" mnemonicParsing="false" text="Napthyne" />
+      <CheckBox layoutX="66.0" layoutY="200.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="54.0" text="Mask" />
+      <ComboBox layoutX="285.0" layoutY="69.0" prefWidth="150.0" />
+      <Button layoutX="285.0" layoutY="122.0" mnemonicParsing="false" text="Button" />
+      <TextArea layoutX="285.0" layoutY="176.0" prefHeight="200.0" prefWidth="200.0" />
+      <Button layoutX="47.0" layoutY="343.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="54.0" text="Back" />
+   </children>
+</AnchorPane>

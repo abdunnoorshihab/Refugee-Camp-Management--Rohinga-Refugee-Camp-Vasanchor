@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="592.0" prefWidth="717.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/18" fx:controller="mainpakage.FXML_NGO_Officer_Give_Eligible_List_Who_ApplyFor_LoanController">
+   <children>
+      <TextField fx:id="namefxId" layoutX="97.0" layoutY="40.0" text="Enter Name" />
+      <TextField fx:id="IdFxId" layoutX="97.0" layoutY="86.0" text="Enter ID" />
+      <TextField fx:id="LoantypeFxID" layoutX="97.0" layoutY="134.0" text="Types of loan" />
+      <TextField layoutX="62.0" layoutY="230.0" onAction="#SubmitOnClick" prefHeight="26.0" prefWidth="80.0" text="Submit" />
+      <TextField layoutX="538.0" layoutY="362.0" onAction="#BackOnClick" prefHeight="26.0" prefWidth="49.0" text="Back" />
+   </children>
+</AnchorPane>

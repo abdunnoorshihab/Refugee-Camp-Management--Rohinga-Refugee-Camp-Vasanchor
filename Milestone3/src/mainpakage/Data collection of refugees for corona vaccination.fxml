@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="638.0" prefWidth="817.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <RadioButton layoutX="48.0" layoutY="155.0" mnemonicParsing="false" text="Not take any " />
+      <RadioButton layoutX="50.0" layoutY="127.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="107.0" text="If take both" />
+      <RadioButton layoutX="50.0" layoutY="76.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="107.0" text="If take first dose" />
+      <RadioButton layoutX="50.0" layoutY="102.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="134.0" text="If take second dose" />
+      <TextField layoutX="43.0" layoutY="200.0" text="Enter name of refugees" />
+      <TextField layoutX="43.0" layoutY="281.0" text="Enter age of refugees" />
+      <TextField layoutX="42.0" layoutY="319.0" text="Enter gender of refugees" />
+      <Button layoutX="36.0" layoutY="363.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="134.0" text="Add people to the list" />
+      <TableView layoutX="294.0" layoutY="36.0" prefHeight="340.0" prefWidth="481.0">
+        <columns>
+          <TableColumn prefWidth="91.20001220703125" text="name" />
+          <TableColumn prefWidth="71.20001220703125" text="ID" />
+            <TableColumn prefWidth="84.79998779296875" text="gender" />
+            <TableColumn prefWidth="85.5999755859375" text="age" />
+            <TableColumn prefWidth="91.20001220703125" text="status" />
+        </columns>
+      </TableView>
+      <TextField layoutX="43.0" layoutY="236.0" text="Enter ID of refugees" />
+      <TextField layoutX="434.0" layoutY="431.0" prefHeight="42.0" prefWidth="134.0" text="Back to home scene" />
+   </children>
+</AnchorPane>
